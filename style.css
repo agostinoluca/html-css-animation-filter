@@ -99,6 +99,49 @@
     height: 100px;
     background: red;
 }
+
+.ex-3-square:hover{
+    animation-duration: 3s;
+    animation-name: esercizio3;
+}
+
+@keyframes esercizio3 {
+    0% {
+        border-radius: 5%;
+    }
+
+    10% {
+        border-radius: 10%;
+    }
+    20% {
+        border-radius: 20%;
+    }
+    30% {
+        border-radius: 30%;
+    }
+    40% {
+        border-radius: 40%;
+    }
+    50% {
+        border-radius: 50%;
+    }
+    60% {
+        border-radius: 60%;
+    }
+    70% {
+        border-radius: 70%;
+    }
+    80% {
+        border-radius: 80%;
+    }
+    90% {
+        border-radius: 90%;
+    }
+    100% {
+        border-radius: 100%;
+    }
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
