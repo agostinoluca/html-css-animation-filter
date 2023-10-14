@@ -61,7 +61,6 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
-    transition: all;
 }
 
 .ex-6-img:hover {
@@ -73,10 +72,24 @@
     filter: hue-rotate(180deg) invert(80%);
 }
 
+.ex-8-img:hover{
+    transition: 3s;
+    border-radius: 30%;
+    filter: brightness(200%) hue-rotate(90deg);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover{
+    transition: 3s;
+    border-radius: 50%;
+    filter: brightness(200%) hue-rotate(10deg);
+    transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
