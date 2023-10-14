@@ -61,6 +61,16 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+    transition: all;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img:hover {
+    transition: 2s;
+    filter: hue-rotate(180deg) invert(80%);
 }
 
 .ex-9-img {
